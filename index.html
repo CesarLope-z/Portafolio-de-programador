@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/boots.css">
+    <title>Mi Portafolio</title>
+</head>
+<body>
+    <header class="header">
+      <div class="header-in">
+     
+      <div class="d-flex justify-content-between alignItemCenter">
+
+        <div class="contenedor-header">
+          <div><p class="color-blanco text-md-start fs-1">Bienvenido,</p></div>
+          <div><p class="color-blanco text-md-center fs-1">Cesar Lopez</p></div>
+          <div><p class="color-blanco text-md-end fs-1">Desarrollador Web</p></div>
+      </div>
+
+      <div class="desplegable" hidden>
+          <lord-icon
+              src="https://cdn.lordicon.com/dklbhvrt.json"
+              trigger="morph"
+              colors="primary:#f1faee"
+              style="width:50px;height:50px">
+          </lord-icon>
+      <div class="desplegable__contenido text-center p-1" >
+            <div class="">
+              <p class="fs-4 color-blanco">Quien soy?</p>
+              <img class="img rounded" src="img/index/foto.jpeg" alt="Cesar-Lopez">
+              <p class="color-blanco">Cesar Lopez</p>
+              <p class="color-blanco">18 años</p>
+              <p class="color-blanco">El Salvador</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </header>
+    <nav class="navb navbar-dark bg-azulOscuro sticky p-4">
+      <div class="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="collapse collapse-horizontal" id="navbarToggleExternalContent">
+        <div class="">
+          <ul class="d-sm-flex justify-content-around me-auto mb-2 mb-lg-0">
+            <li class="">
+              <a class="color-blanco p-2" aria-current="page" href="#habis">HABILIDADES</a>
+            </li>
+            <li class="">
+              <a class="color-blanco p-2" href="#proyectos">PROYECTOS</a>
+            </li>
+            <li class="">
+              <a class="color-blanco p-2" href="#contacto">CONTACTAME</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container wv m-b5">
+
+      <div id="habis" class="habilidades p-4 pt-9">
+
+        <div class="titulo m-9 text-center">
+          <p class="fs-1">Habilidades</p>
+          <div class="line"></div>
+        </div>
+
+        <div>
+          
+          <div class="iconos d-flex justify-content-around text-center m-15">
+
+            <div class="icono">
+              <lord-icon
+                  src="https://cdn.lordicon.com/zpxybbhl.json"
+                  trigger="loop"
+                  colors="primary:#000000,secondary:#a8dadc"
+                  style="width:70px;height:70px">
+              </lord-icon>
+              <p class="fs-3">Interactivo</p>
+              <p>Las paginas realizadas tratan de buscar la interaccion con el usuario</p>
+            </div>
+
+            <div class="icono">
+              <lord-icon
+                  src="https://cdn.lordicon.com/qhgmphtg.json"
+                  trigger="loop"
+                  colors="primary:#000000,secondary:#a8dadc"
+                  style="width:70px;height:70px">
+              </lord-icon>
+              <p class="fs-3">Responsive</p>
+              <p>Las paginas realizadas son adaptables a distintos dispositivos</p>
+            </div>
+
+          </div>
+          <div class="barra m-15">
+
+            <div class=" d-flex w-100">
+              <div class="html w-80 progress-bar progress-bar-striped progress-bar-animated bg-success p-1">
+                <div class="">HTML</div>
+              </div>
+              <span class="w-20 text-end p-1">80%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-85 progress-bar progress-bar-striped progress-bar-animated bg-success p-1">
+                <div>CSS</div>
+              </div>
+              <span class="w-15 text-end p-1">85%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-60 progress-bar progress-bar-striped progress-bar-animated bg-warning p-1">
+                <div>PYTHON</div>
+              </div>
+              <span class="w-40 text-end p-1">60%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-75 progress-bar progress-bar-striped progress-bar-animated bg-warning p-1">
+                <div>JS</div>
+              </div>
+              <span class="w-25 text-end p-1">75%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-20 progress-bar progress-bar-striped progress-bar-animated bg-danger p-1">
+                <div>GULP</div>
+              </div>
+              <span class="w-80 text-end p-1">20%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-40 progress-bar progress-bar-striped progress-bar-animated bg-danger p-1">
+                <div>SASS</div>
+              </div>
+              <span class="w-60 text-end p-1">40%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-35 progress-bar progress-bar-striped progress-bar-animated bg-danger p-1">
+                <div>PHP</div>
+              </div>
+              <span class="w-65 text-end p-1">35%</span>
+            </div>
+
+            <div class=" d-flex w-100">
+              <div class="html w-50 progress-bar progress-bar-striped progress-bar-animated bg-warning p-1">
+                <div>MYSQL</div>
+              </div>
+              <span class="w-50 text-end p-1">50%</span>
+            </div>
+
+            <div class=" ">
+
+              <div class="verMas text-end">
+                <div>
+                  <a href="habilidades.html" class="verMasA p-2">Ver mas...</a>
+                </div>
+                
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div id="proyectos" class="proyectos p-3 pt-9">
+
+        <div class="titulo m-9 text-center">
+          <p class="fs-1 mb-5">Proyectos</p>
+          <div class="line"></div>
+        </div>
+
+        <div class="proyects m-35">
+
+          <div class="card" style="width: 18rem;">
+            <img href="src/proyecto1.html" src="img/index/jarvisWeb.png" class="card-img-top" alt="jarvisWeb">
+            <div class="card-body">
+              <h5 class="card-title">Jarvis Web</h5>
+              <p class="card-text">La accesibilidad y autonomia de poder enlistar recordatorios, de mantener finanzas con una billetera virtual y guardar notas.</p>
+              <a href="src/proyecto1.html" class="btn btn-primary">Leer Mas...</a>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 18rem;">
+            <img href="src/proyecto2.html" src="img/index/miRecibo.png" class="card-img-top" alt="MiRecibo">
+            <div class="card-body">
+              <h5 class="card-title">Recibo / Cotizacion</h5>
+              <p class="card-text">La comodidad de buscar y crear una lista de materiales, a fin de mostrar una cotizacion.</p>
+              <a href="src/proyecto2.html" class="btn btn-primary">Leer Mas...</a>
+            </div>
+          </div>
+
+
+          <div class="card" style="width: 18rem;">
+            <img href="src/proyecto3.html" src="img/index/misTareas.png" class="card-img-top" alt="MisTareas">
+            <div class="card-body">
+              <h5 class="card-title">Enlistar Tareas</h5>
+              <p class="card-text">La manera mas facil de enlistar y programar las tareas pendientes, ya sea de Trabajo, Universidad, Colegio.</p>
+              <a href="src/proyecto3.html" class="btn btn-primary">Leer Mas...</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img href="src/proyecto4.html" src="img/index/jarvisPy.png" class="card-img-top" alt="jarvis">
+            <div class="card-body">
+              <h5 class="card-title">Jarvis</h5>
+              <p class="card-text">La facilidad de abrir ubicaciones de archivo y abrir paginas de manera autonoma por medio de la Voz.</p>
+              <a href="src/proyecto4.html" class="btn btn-primary">Leer Mas...</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img href="src/proyecto5.html" src="img/index/blogCafe.png" class="card-img-top" alt="blogCafe">
+            <div class="card-body">
+              <h5 class="card-title">Venta y Cursos de café</h5>
+              <p class="card-text">Disenio y estructura de pagina web de comercio de Café.</p>
+              <a href="src/proyecto5.html" class="btn btn-primary">Leer Mas...</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img href="src/proyecto6.html" src="img/index/proyecto61.jpg" class="card-img-top" alt="clasesApp">
+            <div class="card-body">
+              <h5 class="card-title">Nuestro Proyecto</h5>
+              <p class="card-text">Hablame y hagamos un proyecto juntos.</p>
+              <a href="#contacto" class="btn btn-primary">Contactame...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+
+    <div class="contacto" id="contacto">
+
+      <div class="titulo text-center">
+        <p class="fs-1 mb-5">Contactame</p>
+        <div class="line"></div>
+      </div>
+
+      <div class="text-center">
+        <p>Te gustaria contactarme?, Hablame</p>
+        <form class="container text-center">
+          <div>
+            <input class="input w-50 p-2 mb-2" type="text" placeholder="Nombre">
+          </div>
+          <div>
+            <input class=" input w-50 p-2 mb-2" type="text" placeholder="E-mail">
+          </div>
+          <div>
+            <textarea class="input w-50 p-2 mb-2 h-70" name="" placeholder="Mensaje" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div>
+            <input type="submit" class="input p-2">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer bg-azulOscuro p-5" >
+      <div class="d-md-flex justify-content-between alignItemCenter ">
+        <div class="d-grid d-sm-flex justify-content-center">
+
+          <a class="icon-footer" target="_blank" href="https://www.facebook.com/cesar.lopez.98031506">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+            </svg>
+          </a>
+
+          <a class="icon-footer" target="_blank" href="https://github.com/CesarLope-z">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+              <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+            </svg>
+          </a>
+        
+
+        <a class="icon-footer" target="_blank" href="https://instagram.com/csar.lop3079?igshid=YmMyMTA2M2Y=">
+          <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <rect x="4" y="4" width="16" height="16" rx="4" />
+            <circle cx="12" cy="12" r="3" />
+            <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+          </svg>
+        </a>
+        
+      </div>
+        <div class="d-grid justify-content-center">
+          <p class="text-fot text-center">cesar.lopezdev@gmail.com</p>
+          <p class="text-fot text-center">7546-9957</p>
+          <p class="text-fot text-center">Todos los derechos reservados &copy; </p>
+        </div>
+      </div>
+      
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
+  </body>
+</html>
+<!-- iconos
+github
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+instagram
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <rect x="4" y="4" width="16" height="16" rx="4" />
+  <circle cx="12" cy="12" r="3" />
+  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+</svg>
+
+
+facebook
+<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+</svg>
+
+iconos -->
